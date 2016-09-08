@@ -1,0 +1,12 @@
+html
+    head
+        link(href='bootstrap-3.3.6-dist/css/bootstrap.min.css', rel='stylesheet')
+        link(href='stylesheets/default.css', rel='stylesheet')
+        script(src='jq/jquery.js')
+        title Login
+        meta(charset='UTF-8')
+    body.login
+        .container
+            form(method='POST', action='/auth/login')
+                h2.form-signin-heading Please sign in
+                button#login.btn.btn-lg.btn-primary.btn-block Sign in with AuthSch

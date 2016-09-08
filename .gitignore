@@ -1,0 +1,7 @@
+npm-debug.log
+node_modules/
+config.json
+.idea/
+sslcert/server.key
+sslcert/server.crt
+
